@@ -1,0 +1,472 @@
+body {
+  margin: 25px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  background-image: URL("../images/mark_of_the_shadow_lord.jpg");
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: auto;
+  min-width: 800px;
+  opacity: 1;
+  transition: 3s opacity;
+}
+html {
+  background-color: black;
+}
+body.fade-in {
+  opacity: 0;
+  transition: none;
+}
+header nav {
+  list-style-type: none;
+  margin: 10px;
+  background-color: transparent;
+  height: 100px;
+  box-shadow: 2px 2px 2px;
+}
+header nav img {
+  width: 350px;
+  float: left;
+}
+header nav ul {
+  background-color: transparent;
+  float: left;
+}
+header nav ul li {
+  display: inline-block;
+  height: 60px;
+  width: auto;
+  line-height: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: transparent;
+  color: white;
+  font-family: 'Inknut Antiqua', serif;
+}
+header nav ul li a:link {
+  text-decoration: none;
+  color: white;
+}
+header nav ul li a:hover {
+  text-shadow: 1px 1px 1px;
+}
+header nav ul li a:visited {
+  text-decoration: none;
+  color: white;
+}
+.extra-border {
+  clear: both;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  background-color: transparent;
+  margin: 25px;
+  overflow: auto;
+}
+.inner-box {
+  clear: both;
+  margin: 3px;
+  padding-left: 10px;
+  padding-right: 10x;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: 'Merriweather', serif;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  color: #441813;
+  overflow: auto;
+}
+.inner-box p {
+  padding-right: 20px;
+  padding-left: 15px;
+}
+aside#back-to-intro {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  margin-right: 20px;
+}
+#back-to-intro p {
+  color: grey;
+  text-align: right;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  font-style: italic;
+  height: 14px;
+}
+#back-to-intro a {
+  color: grey;
+  text-align: right;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  font-style: italic;
+  text-decoration: none;
+}
+#back-to-intro a:hover {
+  color: white;
+  text-align: right;
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  font-style: italic;
+}
+#back-to-intro p:visited {
+  color: grey;
+  text-align: right;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  font-style: italic;
+  text-decoration: none;
+}
+#back-to-intro a:active {
+  color: white;
+  text-align: right;
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  font-style: italic;
+}
+#back-to-intro a:focus {
+  color: white;
+  text-align: right;
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+p a:link {
+  text-decoration: underline;
+  color: #441813;
+}
+p a:hover {
+  color: #441813;
+  text-decoration: none;
+}
+p a:visited {
+  text-decoration: underline;
+  color: #441813;
+}
+h1 {
+  font-size: 1.3em;
+}
+footer {
+  position: relative;
+  top: 20px;
+  bottom: 20px;
+}
+footer nav ul {
+  list-style-type: none;
+  margin: 28px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  height: 30px;
+  box-shadow: 2px 2px 2px;
+  text-align: center;
+}
+footer nav ul li {
+  display: inline-block;
+  height: 60px;
+  width: auto;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: grey;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 15px;
+}
+footer nav ul li a:link {
+  text-decoration: none;
+  color: grey;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 15px;
+}
+
+footer nav ul li a:visited {
+  color: grey;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  color: lightgrey;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 15px;
+}
+body.intro {
+  background-image: none;
+  background-color: black;
+}
+#introanimation img {
+  width: 100%;
+}
+.over-image {
+  position: relative;
+  width: 100%;
+}
+body.intro p {
+  color: white;
+  font-size: 22px;
+}
+#firstpara {
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  width: 825px;
+  text-align: left;
+}
+#secondpara {
+  position: absolute;
+  top: 550px;
+  left: 700px;
+  width: 600px;
+  text-align: right;
+}
+#entersite {
+  position: absolute;
+  top: 650px;
+  left: 700px;
+  width: 600px;
+  text-align: right;
+  font-size: 25px;;
+}
+#entersite a:link {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+#entersite a:visited {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+#entersite a:hover {
+  color: white;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+#entersite a:focus {
+  color: white;
+  font-size: 25px;
+  text-decoration: underline;
+}
+#authorpic {
+  float: right;
+  border: 2px solid black;
+  margin: 10px;
+  box-shadow: 1px 1px 0px;
+}
+
+#break {
+  border-bottom: 1px dashed #441813;
+  margin-right: 8px;
+}
+
+body.chapter section > img {
+  float: right;
+  width: 250px;
+}
+
+.codedmessage {
+  width: 450px;
+  margin: auto;
+}
+
+body.chapter section.inner-box div + p:first-letter {
+  font-size: 2em;
+}
+body.chapter button {
+  font-size: 1em;
+  background-color: lightgrey;
+}
+
+body.chapter section figure.codedmessage figcaption {
+  width: 450px;
+  font-style: italic;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  text-shadow: 1px 1px 0;
+  text-decoration: underline;
+}
+body.riddle form {
+  text-align: center;
+}
+body.riddle img {
+  width: 500px;
+}
+#buttons {
+  display: grid;
+  width: 100px;
+  margin: auto;
+  border-style: none;
+}
+#buttons input {
+  width: 100px;
+}
+#codedmessage2 {
+  width: 500px;
+  margin: auto;
+  float: right;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.character {
+  width: 300px;
+  max-width: 350px;
+  float: left;
+  margin: 20px;
+  border: 1px dotted black;
+  padding: 1px;
+}
+#jasmine {
+  width: 300px;
+  max-width: 350px;
+  float: right;
+  margin: 20px;
+  border: 1px dotted black;
+  padding: 1px;
+}
+.companion_text {
+  text-align: center;
+  margin: 15px;
+  margin-top: 100px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+body.books section figure img {
+  width: 150px;
+  margin: auto;
+}
+
+body.books section figure figcaption {
+  text-align: center;
+  width: 150px;
+}
+
+body.books section figure {
+  display: inline-grid;
+  width: 200px;
+}
+
+body.books div {
+  width: 1150px;
+  margin: auto;
+}
+
+body.game {
+  background-image: none;
+  background-color: black;
+}
+#belt {
+  float: right;
+  border: 1px solid grey;
+  padding: 1px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+#gems {
+  height: 500px;
+  width: 1200px;
+  border: 1px solid white;
+  margin: auto;
+  position: relative;
+}
+
+#diamond {
+  position: absolute;
+  top: 230px;
+  left: 390px;
+}
+
+#amethyst {
+  position: absolute;
+  top: 390px;
+  left: 1000px;
+}
+#opal {
+  position: absolute;
+  top: 10px;
+  left: 800px;
+}
+#lapislazuli {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+#ruby {
+  position: absolute;
+  top: 300px;
+  left: 700px;
+}
+#emerald {
+  position: absolute;
+  top: 275px;
+  left: 230px;
+}
+#topaz {
+  position: absolute;
+  top: 195px;
+  left: 1100px;
+}
+
+#diamond_fix {
+  position: absolute;
+  top: 230px;
+  left: 390px;
+}
+
+#amethyst_fix {
+  position: absolute;
+  top: 390px;
+  left: 1000px;
+}
+#opal_fix {
+  position: absolute;
+  top: 10px;
+  left: 800px;
+}
+#lapislazuli_fix {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+#ruby_fix {
+  position: absolute;
+  top: 300px;
+  left: 700px;
+}
+#emerald_fix {
+  position: absolute;
+  top: 275px;
+  left: 230px;
+}
+#topaz_fix {
+  position: absolute;
+  top: 195px;
+  left: 1100px;
+}
+
+.game div {
+  border: 3px solid grey;
+  background-color: darkgrey;
+  border-radius: 20px;
+  width: 200px;
+  position: relative;
+  top: 60px;
+  left: 570px;
+}
+.game div p {
+  text-align: center;
+  font-size: 20px;
+}
+.game div p a:link {
+  text-decoration: none;
+}

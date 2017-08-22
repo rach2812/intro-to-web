@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="ut-8"/>
+    <title>Crack the code</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Merriweather|Merriweather+Sans|Uncial+Antiqua" rel="stylesheet">
+    <script type="text/javascript" src="javascript/jquery-1.10.2.js"></script>
+  </head>
+  <body class="riddle">
+    <section class="extra-border">
+      <section class="inner-box">
+        <div class="codedmessage">
+          <img src="images/coded_message.png" alt="Coded message: 'DEL ONEL O TELGEL O TELO TEL HELE KEL ITEL CEL HELE NEL SEL MEL I NELI SEL TELHEL E RELE' -- try and decode the message"/>
+        </div>
+        <form method="get" id="crackcode">
+          <fieldset>
+            <legend>Try to crack the coded message:</legend>
+            <textarea name="solution" rows="4" cols="50" id="useranswer"></textarea>
+          </fieldset>
+          <fieldset id="buttons">
+            <input type="submit" name="submit" value="Solve it" id="solve"/>
+            <input type="submit" name="hint" value="Get hint" id="hint"/>
+            <input type="submit" name="giveup" value="Give up" id="giveup"/>
+          </fieldset>
+        </form>
+      </section>
+    </section>
+    <script type="text/javascript" src="javascript/codedmessage.js"></script>
+
+  </body>
+</html>
